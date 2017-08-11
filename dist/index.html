@@ -34,8 +34,10 @@
           <ul id="todo-list"></ul>
       </section>
   </section>
+
+
   <!-- ========= -->
-  <!-- Libraries -->
+  <!-- ToDo app templates -->
   <!-- ========= -->
   <script type="text/template" id="item-template">
       <div class="view">
@@ -45,6 +47,26 @@
           <button class="destroy">remove</button>
       </div>
   </script>
+
+  <!-- ========= -->
+  <!-- Cat app templates -->
+  <!-- ========= -->
+  <script type="text/template" id="cats-table-template">
+    <thead>
+      <tr class='header'>
+        <th>Name</th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </script>
+
+  <script type="text/template" id="angrycat-template">
+    <td><%- name ></td>
+  </script>
+
+  <div id="catapp">
+  </div>
 
   <!-- =============== -->
   <!-- Javascript code -->

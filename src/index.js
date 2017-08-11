@@ -4,6 +4,8 @@ import $ from 'jquery';
 import _ from 'underscore';
 import Store from 'backbone.localstorage';
 
+import catapp from './cats';
+
 var app = {};
 
 app.Todo = Backbone.Model.extend({
